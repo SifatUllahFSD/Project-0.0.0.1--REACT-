@@ -12,7 +12,7 @@ This project is deployed live on *Vercel*.
 
 ## 🔗 Live Demo
 
-[![Open Live Project](https://img.shields.io/badge/Live%20Demo-Click%20Here-blueviolet?style=for-the-badge)](https://project-0-0-0-1-react-qymv.vercel.app/)
+[![Open Live Project](https://img.shields.io/badge/Live%20Demo-Click%20Here-blueviolet?style=for-the-badge)](https://project-0-0-0-1-react-wm2h.vercel.app/)
 
 ---
 
