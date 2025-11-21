@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+
+.container {
+    @apply max-w-[1320px] mx-auto ;
+}
+
+@layer {
+    ul li a {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #ffffff;
+        font-family: "Inter", sans-serif;
+        transition: all linear .3s;
+    }
+    .mobile-device a{
+         font-size: 26px;
+        line-height: 32px;
+        font-weight: 600;
+        color: #ffffff;
+        font-family: "Inter", sans-serif;
+        transition: all linear .3s;
+
+    }
+    .mobile-device a:hover{
+        color: #ed2203;
+    }
+    ul li a:hover {
+        color: #4756DF;
+        font-weight: 700;
+    }
+    .slick-dots li button {
+    width: 24px !important;
+    height: 24px !important;
+    background: #4756DF !important;
+    border-radius: 50%;
+    position: relative;
+    }
+    .slick-dots li button:before {
+    color: transparent !important;
+   ;
+   }
+
+   .slick-dots li.slick-active button {
+    background-color: #fff !important;
+   }
+
+    .slick-dots li.slick-active button:before{
+        width: 16px !important;
+    height: 16px !important;
+    background: #4756DF !important;
+    border-radius: 50%;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%);
+    }
+    .slick-dots{
+        bottom: -120px !important;
+    }
+    .slick-list{
+        overflow: hidden !important;
+    }
+    input::placeholder {
+       @apply font-inter font-normal leading-[26px] text-[#D0D0D0] text-[16px] ;
+    }
+     .slick-center .item {
+        background-color: #F4EFEF;
+    }
+       .swiper-slide-active {
+        background-color: #F4EFEF;
+        border-radius:20px;
+    }
+    .nav-active {
+        color: #4756DF;
+        font-weight: 700;
+    }
+}
+
+@theme {
+  --font-inter: "Inter", sans-serif; 
+   --shadow-one:  0px 0px 10px 2px rgba(0, 0, 0, 0.25); 
+}
+
+
+
